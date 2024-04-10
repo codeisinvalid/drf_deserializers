@@ -4,10 +4,10 @@ import json
 URL = "http://127.0.0.1:8000/student-create"
 
 data = {
-    'name':'Sooj',
-    'roll':205,
-    'city':'Nepal',
-    'grade': "B.Tech"
+    'name':'Rajan',
+    'roll':200,
+    'city':'India',
+    'grade': "MBBS"
 }
 
 json_data = json.dumps(data)
